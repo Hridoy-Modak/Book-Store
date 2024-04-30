@@ -1,0 +1,73 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#book-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 5px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px 0px 50px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.bknm, .authnm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    
+}
+label{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+}
+input::placeholder{
+    color: 1px solid rgba(0, 0, 0, 0.945);
+    opacity: 30%; 
+    font-size: 13px; 
+}
+
+#booknm, #authernm{
+    width:350px; 
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    
+}
+#button{
+    width: 80px;
+    padding: 5px;
+    color: gray;
+    background: #e5f4f8;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #96a3a759;
+    margin-left: 40px;
+}
+
+table{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+tr, td{
+    text-align: center;
+    width: 50%;
+}
+tr{
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+}
+ 
+
+
